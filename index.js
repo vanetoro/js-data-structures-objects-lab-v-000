@@ -1,8 +1,8 @@
 // Write your solution in this file!
 
-function driver(){
-  let drive = new Object();
-}
+
+  let driver = new Object();
+
 function updateDriverWithKeyAndValue(obj,key,value){
     let newDriver = {...obj};
 
@@ -27,13 +27,13 @@ function destructivelyDeleteFromDriverByKey(driver,ley){
 
 }
  const driver = {}
- 
+
  function DriverWithKeyAndValue(driver, key, value){
     const newDriver = { ...driver };
-    
+
     newDriver[key]= value;
-    
+
     return newDriver;
-   
+
  }
  

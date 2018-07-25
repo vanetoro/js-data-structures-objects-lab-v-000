@@ -1,6 +1,6 @@
 // Write your solution in this file!
 
-let driver = new Object();
+const driver = new Object();
 
 function updateDriverWithKeyAndValue(obj,key,value){
     let newDriver = {...obj};
